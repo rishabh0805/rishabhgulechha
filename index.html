@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishabh Gulechha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f3f4f6;
+      color: #1e293b;
+      transition: background 0.3s, color 0.3s;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background: #dbeafe;
+      color: #1e293b;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    header h1 { font-size: 2.2rem; }
+    header p { font-size: 1rem; opacity: 0.85; margin-top: 0.3rem; }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #e0f2fe;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem;
+      z-index: 10;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #0284c7; }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 880px;
+      margin: auto;
+    }
+    h2 {
+      color: #0284c7;
+      margin-bottom: 1.2rem;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #bae6fd;
+      display: inline-block;
+    }
+    .card {
+      background: #e0f2fe;
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #dbeafe;
+      color: #475569;
+    }
+    .socials a {
+      margin: 0 1rem;
+      color: #0284c7;
+      font-size: 1.5rem;
+    }
+    .toggle-theme {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #1e3a8a;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 0.8rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-top: 0.5rem;
+      border: 1px solid #94a3b8;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+    button[type="submit"] {
+      margin-top: 1rem;
+      background-color: #0284c7;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme" onclick="document.body.classList.toggle('light')">
+    <i class="fas fa-adjust"></i>
+  </button>
+
+  <header data-aos="fade-down">
+    <img src="picture.jpg" alt="Rishabh Gulechha" />
+    <h1>Rishabh Gulechha</h1>
+    <p>Pune, India | rgulechha2105@gmail.com | 7620279813</p>
+    <p>👋 Welcome! How may I help you?</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#connect">Connect</a>
+  </nav>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I'm an engineering student deeply passionate about software development, real-world innovation, and tech that makes life easier. My interests lie in building smart systems, from microcontroller automation to full-stack web development and cloud integration. I’m constantly exploring new tools and frameworks to broaden my capabilities.</p>
+      <p>I’ve won gold in the International Maths Olympiad and the International French Olympiad and have received verbal mentions in Model United Nations conferences. I believe in continuous learning, and I thrive when working on challenging problems in tech.</p>
+    </div>
+  </section>
+
+  <section id="education" data-aos="fade-up">
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>B.Tech</strong> – Electrical, Electronics and Communications, MIT-WPU, Pune</p>
+      <p><strong>B.Sc</strong> – Computer Science, BITS Pilani</p>
+    </div>
+  </section>
+
+  <section id="certifications" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <div class="card">
+      <ul>
+        <li>
+          <strong>Google Cloud Fundamentals & Generative AI Arcade Game (Lvl 3)</strong><br>
+          <a href="/mnt/data/ad411f34-b878-4e54-82ec-79a8c5604f2e.jpg" download style="color: #0284c7; text-decoration: underline;">
+            Download Certificate
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="card">
+      <strong>RFID Door Tag System</strong>
+      <p>Built a door access system using RFID tags and a microcontroller to automate secure entry for authorized users.</p>
+    </div>
+    <div class="card">
+      <strong>ML Research Project – CS7461</strong>
+      <p>Collaborated on a machine learning research project for CS7461. Explored model optimization and data analysis methods.</p>
+      <a href="https://twisha-shah99.github.io/cs7461-team29-mlProject/" target="_blank" style="color: #0284c7; font-weight: bold; text-decoration: underline;">
+        View Project
+      </a>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="card">
+      <p><strong>Programming:</strong> Python, C/C++, Java, SQL</p>
+      <p><strong>Cloud Platforms:</strong> AWS, GCP, Azure</p>
+      <p><strong>Web Frameworks:</strong> Flask, Streamlit</p>
+      <p><strong>Databases:</strong> MySQL, SQLite, Oracle</p>
+      <p><strong>Data Visualization:</strong> Tableau</p>
+      <p><strong>Version Control:</strong> Git</p>
+    </div>
+  </section>
+
+  <section id="connect" data-aos="fade-up">
+    <h2>Connect With Me</h2>
+    <div class="card">
+      <form action="mailto:rgulechha2105@gmail.com" method="POST" enctype="text/plain">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Message:</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <div class="card socials">
+      <a href="https://www.instagram.com/rishabh_gulechha2105/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/rishabh-gulechha-5395a9273/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Rishabh Gulechha
+  </footer>
+
+  <!-- AOS animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+  <!-- Dialogflow chatbot -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="RishabhBot"
+    agent-id="main-tvop"
+    language-code="en"
+  ></df-messenger>
+</body>
+</html>
